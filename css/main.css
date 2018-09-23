@@ -1,0 +1,276 @@
+/*********************
+General
+*********************/
+body {
+    /*font-family: "medium-content-serif-font",Georgia,Cambria,"Times New Roman",Times,serif;*/ 
+    font-family: apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+    padding: 10px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Tangerine', cursive;
+    padding-top: 24px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.004em;
+}
+
+/*********************
+Header
+*********************/
+header {    
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    margin: 5px;
+}
+
+nav li {
+    padding: 0 4px;
+}
+
+nav h1 {
+    font-family: apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: normal;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/*********************
+Home
+*********************/
+#home {
+    background: url(../img/daveandlisa-main.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 910px;
+    text-align: center;
+}
+
+#home-content {
+    max-width: 50%;
+}
+
+#home h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 6em;
+    margin: 250px 0 40px;
+}
+
+#home h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 5em;
+}
+
+#home h1, #home h2 {
+    text-shadow: 2px 2px #111;
+}
+
+#countdown {
+    padding-top: 100px;
+    display: none;
+}
+
+/*********************
+Story
+*********************/
+#story {
+    text-align: center;
+    display:inline-block;
+}
+
+#story-content {
+    text-align: left;
+}
+
+#story h2, #story p {
+    margin: 40px 0 0 0;
+}
+
+#story-david {
+	text-align: right;
+}
+
+#the-story {
+    text-align: left;
+}
+
+#the-story h1 {
+    text-align: center;
+}
+
+.profile-photo {
+    display: block;
+    max-width: 200px;
+    margin: 30px;
+    border-radius: 100%;
+    float: left;
+}
+
+#story-david img {
+	float: right;
+}
+
+/*********************
+Party
+*********************/
+#party-content {
+    max-width: 80%;
+}
+
+#party li {
+    width: 100%;
+    text-align: center; 
+    position: relative;
+    overflow: hidden;   
+}
+
+.party-pic {
+    border-radius: 100%;
+    margin: 10px;
+    max-width: 200px;
+    
+}
+
+.info {
+    position: absolute;
+    top: 100%; right: 0; bottom: 0; left: 0;
+    background: rgba(0,0,0,0.8);
+    color: #eee;
+    transition: .5s ;
+    height: 100%;
+    padding: 10px;
+    border-radius: 2%;
+    font-size: 1em;
+}
+
+#party-content li:hover .info {    
+    top: 0;
+}
+
+
+/*********************
+Info
+*********************/
+
+
+/*********************
+Registry
+*********************/
+.registry-logo {
+    max-width: 150px;
+}
+
+
+#registry-content {
+    max-width: 100%;
+}
+
+#registry-content ul {
+    display: inline-block;
+}
+
+#registry-content li {
+    width: 300px;
+    padding: 10px;
+}
+
+/*********************
+Photos
+*********************/
+#photos-content img {
+    max-width: 150px;
+    margin: 20px 40px;
+}
+
+/*********************
+Footer
+*********************/
+footer {
+    text-align: center;
+}
+
+footer p {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+/*********************
+Colors
+*********************/
+body {
+    background-color: #fffffa;
+    color: #333333;
+}
+
+header {
+    background-color: #c8a2c8;
+    background-color: #444;
+    opacity: 0.8;
+}
+
+a {
+    color:#111;  
+}
+
+header a {
+    color: #fffffa;
+}
+
+a:hover {
+    color: #894789;
+    color: #c8a2c8;
+    color: #a570a5;
+}
+
+#home h1, #home h2 {
+    color: #fffffa;
+}
+
+#story, #party, #registry, #guests {
+    background-color: #d5eec1;
+}
+
+#wedding, #info, #photos {
+    background-color: #e4d0e4;
+}
+
+footer {
+    color: #fff;
+    background-color: #555;
+}

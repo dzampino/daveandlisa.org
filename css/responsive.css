@@ -1,0 +1,55 @@
+@media screen and (min-width: 480px) {
+    section {
+        margin: 0 auto;
+        max-width: 70%;
+        padding: 40px 0;
+    }   
+    
+    nav li {
+        display: inline-block;
+    }
+    
+    header {
+        position: fixed;
+        float: left;
+    }
+    
+    #home {
+        padding-top: 50px;
+    }
+    
+    #party li {
+        width: 350px;
+    }
+         
+}
+
+@media screen and (min-width: 660px) {
+
+    
+    section {
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    
+    nav li {
+        padding: 0 15px;
+    }
+    
+    #home h1 {
+        font-family: 'Tangerine', cursive;
+        font-size: 9em;
+    }
+    #home h2 {
+        font-family: 'Tangerine', cursive;
+        font-size: 8em;
+    }
+    
+    #countdown {
+        display: block;
+    }
+    
+    section li {
+        display: inline-block
+    }      
+}
